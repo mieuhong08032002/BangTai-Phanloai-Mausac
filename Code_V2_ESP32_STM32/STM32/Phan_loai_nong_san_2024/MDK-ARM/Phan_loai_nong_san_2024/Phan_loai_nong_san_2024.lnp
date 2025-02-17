@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"phan_loai_nong_san_2024\startup_stm32f103xb.o"
+"phan_loai_nong_san_2024\main.o"
+"phan_loai_nong_san_2024\stm32f1xx_it.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_msp.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_gpio_ex.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_i2c.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_rcc.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_rcc_ex.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_gpio.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_dma.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_cortex.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_pwr.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_flash.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_flash_ex.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_exti.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_tim.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_tim_ex.o"
+"phan_loai_nong_san_2024\stm32f1xx_hal_uart.o"
+"phan_loai_nong_san_2024\system_stm32f1xx.o"
+--strict --scatter "Phan_loai_nong_san_2024\Phan_loai_nong_san_2024.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Phan_loai_nong_san_2024.map" -o Phan_loai_nong_san_2024\Phan_loai_nong_san_2024.axf

@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hong hongmieu2002@gmail.com, haui, LIC=ATTQ1-CB878-VEAHA-1NYCX-X9RMM-DIG9B
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\hongm\Desktop\stm32\ontap\Phan_loai_nong_san_2024\MDK-ARM\Phan_loai_nong_san_2024.uvprojx
+Project File Date:  08/13/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Phan_loai_nong_san_2024'
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling main.c...
+../Core/Src/main.c(27): warning:  #1295-D: Deprecated declaration lcd_clear - give arg types
+  void lcd_clear();
+../Core/Src/main.c(28): warning:  #1295-D: Deprecated declaration updateDataToLcd - give arg types
+  void updateDataToLcd();
+../Core/Src/main.c(41): warning:  #1295-D: Deprecated declaration timServoInnit - give arg types
+  void timServoInnit();
+../Core/Src/main.c(45): warning:  #1295-D: Deprecated declaration phan_loai - give arg types
+  void phan_loai();
+../Core/Src/main.c(73): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,(int)1);
+../Core/Src/main.c(82): warning:  #223-D: function "sprintf" declared implicitly
+  		sprintf((char *)(txBuffer),"key:%s|\n",key);
+../Core/Src/main.c(137): warning:  #177-D: variable "n"  was declared but never referenced
+  	int n=5;
+../Core/Src/main.c(161): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf((char *)dataLcd,"L1:%d",loai1);
+../Core/Src/main.c: 8 warnings, 0 errors
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_i2c.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_tim.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_uart.c...
+linking...
+Program Size: Code=8820 RO-data=312 RW-data=56 ZI-data=1992  
+FromELF: creating hex file...
+"Phan_loai_nong_san_2024\Phan_loai_nong_san_2024.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Phan_loai_nong_san_2024
+  C:/Users/hongm/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/hongm/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:15
+</pre>
+</body>
+</html>
